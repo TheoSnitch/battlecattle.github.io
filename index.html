@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>BattleCattle Unban søknad</title>
+
+</head>
+  <title>BattleCattle Unban Søknad</title>
+  <body>
+    <h1>Hei</h1>
+    <p>Dette er en nettside du kan bruke for å søke om unban</p>
+    <hr />
+    <p></p>
+    
+  </body>
+</html>
+
+<img src="https://media.discordapp.net/attachments/915494969245061131/988498843282833478/512_1.png?width=328&height=328">
+
+<body>
+    <center>
+        <form onsubmit="sendMessage()">
+            <div class="mb-3 w-50 text-start">
+                <label for="username" class="form-label">Brukernavn: </label>
+                <input required type="text" id="username" placeholder="Brukernavn" class="form-control" aria-describedby="usernameInfo">
+                <div id="usernameInfo" class="form-text">Sett ditt Discord-brukernavn her! (Ex:ᗪᕼᖇᑌᐯツ)</div>
+            </div>
+            <div class="mb-3 w-50 text-start">
+                <label for="usertag" class="form-label">Brukertag: </label>
+                <input required type="number" id="usertag" placeholder="Brukertag" class="form-control" aria-describedby="usertagInfo" maxlength="4">
+                <div id="usertagInfo" class="form-text">Sett din Discord-tag (Diskriminator) her! (Eks: 4532)</div>
+            </div>
+            <div class="mb-3 w-50 text-start">
+                <label for="userID" class="form-label">bruker-ID: </label>
+                <input required type="number" id="userID" placeholder="bruker-ID" class="form-control" aria-describedby="userIDInfo" maxlength="18">
+                <div id="userIDInfo" class="form-text">Legg inn din Discord-bruker-ID her! (Eks: 4532))</div>
+            </div>
+            <div class="mb-3 w-50 text-start">
+                <label for="reason" class="form-label">Grunn for ban: </label>
+                <input required type="text" id="reason" placeholder="Grunn for ban" class="form-control" aria-describedby="reasonInfo" list="banReasons">
+                <div id="reasonInfo" class="form-text">Oppgi grunnen til at du ble utestengt! (Eks.: DM-annonsering)<br>MERK: Skriv en annen passende grunn, hvis årsaken ikke er nevnt.</div>
+            </div>
+            <div class="mb-3 w-50 text-start">
+                <label for="appeal" class="form-label">Bananke: </label>
+                <input required type="text" id="appeal" placeholder="Bananke" class="form-control" aria-describedby="appealInfo">
+                <div id="appealInfo" class="form-text">Skriv hva du vil og ikke vil gjøre hvis du blir utestengt, på den mest tiltalende, men sanne måten.</div>
+            </div>
+            <button id="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </center>
+    <datalist id="banReasons">
+        <option>DM-annonsering</option>
+        <option>Banning / Omgåelse</option>
+        <option>Å være giftig / frekk</option>
+        <option>Å være upassende</option>
+        <option>Rasistiske utsagn</option>
+    </datalist>
+    <script src="./index.js"></script>
+</body>
+</html>
